@@ -13,9 +13,9 @@ const Feed = () => {
       {
         follow && tweets?.tweets?.map((tweet)=> <Tweet key={tweet?._id} {...tweet} />)
       }
-      {
+      {/* {
         following && followingTweet?.tweets?.map((tweet)=> <Tweet key={tweet?._id} {...tweet}/>)
-      }
+      } */}
     </div>
   )
 }
